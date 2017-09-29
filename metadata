@@ -1,0 +1,10 @@
+[Application]
+name=org.mozilla.Firefox
+runtime=org.gnome.Platform/x86_64/3.26
+command=firefox
+
+[Context]
+shared=ipc;network;
+sockets=x11;wayland;pulseaudio;
+devices=dri;
+#filesystems=host;
